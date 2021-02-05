@@ -1,0 +1,83 @@
+.docplanner-header {
+ display: flex;
+ justify-content: space-around;
+ font-family: Arial ;
+ position :fixed ;
+ top : 0 ;
+ left: 0;
+ right: 0;
+ z-index : 1 ;
+ background-color: white;
+
+}
+
+.nav-bar-menu{
+    display : flex ;
+}
+
+.nav-bar-menu p {
+    padding : 10px 10px ;
+    height: 30px;
+    display : flex ;
+    align-items: center;
+
+}
+
+.about-us-item {
+    color: #00b39b;
+}
+
+.career-item {
+    color :#ababab;
+}
+
+.departements-item {
+    color :#ababab;
+}
+
+.career-item:hover{
+    color: #00b39b;
+}
+
+.departements-item:hover{
+    color: #00b39b;
+}
+
+.departements-item:hover +ul{
+    display: block;
+}
+
+ul {
+    list-style: none;
+    background-color: white;
+    width: 220px;
+    height:  210px;
+    display: none;
+    border : 1px ;
+    top: 30px ;
+    right:200px ;
+    position : absolute;
+    box-shadow: 0px 5px 5px 3px #efefef;
+    padding-top:10px;
+
+}
+ul:hover {
+    display:block ;
+}
+
+ul li {
+    color : #ababab ;
+    display:flex ;
+    height: 20%;
+    align-items: center;
+    padding-left: 15px ;
+}
+
+ul li:hover {
+    color: #00b39b;
+    background-color: #efefef;
+}
+
+.logo-docplanner {
+    padding-top: 20px ;
+}
